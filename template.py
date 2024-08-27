@@ -3,7 +3,7 @@ from pathlib import Path
 import logging
 
 list_of_files=[
-    ".github\\workflows\\.gitkeep",
+    ".github\\workflows\\.gitkeep",#for ci/cd
     "src\\__init__.py",
     "src\\components\\__init__.py",
     "src\\components\\data_ingestion.py",
@@ -13,9 +13,10 @@ list_of_files=[
     "src\\pipeline\\__init__.py",
     "src\\pipeline\\training_pipeline.py",
     "src\\pipeline\\prediction_pipeline.py",
+    "src\\utils\\__init__py",
     "src\\utils\\utils.py",
     "srv\\logger\\logging.py",
-    "src\\exception\\exception",
+    "src\\exception\\exception.py",
     "tests\\unit\\__init__.py",
     "tests\\integration\\__init__.py",
     "init_setup.sh",
@@ -25,7 +26,7 @@ list_of_files=[
     "setup.cfg",
     "pyproject.toml",
     "tox.ini",
-    "experiment\\experiments.ipynb",
+    "experiment\\experiments.ipynb",#for experiments
 
 
 ]
